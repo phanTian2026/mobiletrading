@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a81c151d16fb4296",
+        "id": "60cbbc7936712959",
         "type": "tabs",
         "children": [
           {
-            "id": "a2f80e86cdfae28a",
+            "id": "2defcf5a60f9b1c5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -172,8 +172,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2f80e86cdfae28a",
+  "active": "2defcf5a60f9b1c5",
   "lastOpenFiles": [
+    "2026-04-27.md",
+    "4.28待办事项.md",
+    "未命名",
+    "2026-04-28.md",
     "00_dashboard.md"
   ]
 }
