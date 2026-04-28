@@ -1,0 +1,2839 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-tasks-plugin",
+        "version": "1.0.0",
+        "title": "Tasks",
+        "description": "Tasks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "7.23.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg style=\"display: block; margin: auto;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>",
+                    "target": "<svg style=\"display: block; margin: auto;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Filter by description...",
+                    "target": "按描述筛选..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Loading Tasks ...",
+                    "target": "正在加载任务..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Edit task",
+                    "target": "编辑任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "不支持 Intl，请使用 Intl polyfill！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tasks: Cannot create task on line:",
+                    "target": "Tasks：无法在该行创建任务："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "setObsidianPropertiesTypes error",
+                    "target": "setObsidianPropertiesTypes 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unloading Cache",
+                    "target": "正在卸载缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Query or filter text...",
+                    "target": "查询或筛选文本..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Hide unused fields",
+                    "target": "隐藏未使用的字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create or edit Task",
+                    "target": "创建或编辑任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Drag to reorder",
+                    "target": "拖动以重新排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象，但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这表示你的设置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 解析后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector，且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已初始化。你只应调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting has not be initialised. Can update visibility of setting UI - in setSettingVisibility",
+                    "target": "设置尚未初始化。可在 setSettingVisibility 中更新设置 UI 的可见性"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot postpone a null date",
+                    "target": "无法延期空日期"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Properties updated successfully.",
+                    "target": "属性更新成功。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All supported properties are already present.",
+                    "target": "所有受支持的属性已存在。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Results copied to clipboard",
+                    "target": "结果已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Калі ўключана, гэты статус будзе даступны ў якасці каманды, так што вы зможаце прызначыць гарачую клавішу і пераключаць статус з яе дапамогай.",
+                    "target": "启用后，此状态将作为命令可用，您可以为其分配快捷键并使用它切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Пры націску гэта сімвал, які павінен быць выкарыстаны далей.",
+                    "target": "点击时将使用此符号作为下一个要用的符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Гэта зразумелае імя статусу задачы.",
+                    "target": "这是任务状态的显示名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Гэта сімвал паміж квадратнымі дужкамі. (Яго можна рэдагаваць толькі для карыстальніцкіх статусаў, а не для асноўных статусаў.)",
+                    "target": "这是方括号之间的符号。（只能为自定义状态编辑，不能为内置状态编辑。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Кіруйце тым, як статус паводзіць сябе пры пошуку і пераключэнні.",
+                    "target": "控制该状态在搜索和切换时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Колькі прапаноў павінна быць паказана пры з'яўленні меню аўтаматычных прапаноў (уключаючы опцыю «⏎»).",
+                    "target": "自动建议菜单弹出时应显示多少条建议（包括“⏎”选项）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Калі вышэй за 0, аўтаматычная прапанова будзе спрацоўваць толькі тады, калі распазнаецца пачатак любога падтрымоўванага ключавога слова.",
+                    "target": "如果大于 0，自动建议仅在识别到任一受支持关键字的开头时触发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Уключэнне гэтага адкрые інтэлектуальнае меню прапаноў пры ўводзе тэксту ўнутры распазнанай лініі задачы.",
+                    "target": "启用后，在已识别的任务行内输入文本时会打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Уключэнне гэтага дадасць часовую пазнаку ❌ YYYY-MM-DD ў канцы, калі задача пераключаецца ў адменены стан.",
+                    "target": "启用后，当任务切换为已取消状态时，会在末尾添加时间戳 ❌ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Уключэнне гэтага дадасць часовую пазнаку ➕ YYYY-MM-DD перад іншымі значэннямі даты, калі задача ствараецца з дапамогай «Стварыць або рэдагаваць задачу» або пры завяршэнні перыядычнай задачы.",
+                    "target": "启用后，当通过“创建或编辑任务”创建任务或完成周期性任务时，会在其他日期值之前添加时间戳 ➕ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Уключэнне гэтага дадасць часовую пазнаку ✅ YYYY-MM-DD ў канцы, калі задача пераключаецца ў выкананы стан.",
+                    "target": "启用后，当任务切换为已完成状态时，会在末尾添加时间戳 ✅ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Пакіньце пустым, калі хочаце выкарыстоўваць запланаваныя даты па змаўчанні паўсюль, або ўвядзіце спіс тэчак, падзеленых коскамі.",
+                    "target": "若要在所有位置使用默认计划日期，请留空；或输入以逗号分隔的文件夹列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Калі клавішы доступу (клавіятурныя скарачэнні) для розных элементаў кіравання ў дыялогавых вокнах канфліктуюць з сістэмнымі клавіятурнымі скарачэннямі або функцыямі дапаможнай тэхналогіі, якія важныя для вас, вы можаце адключыць іх тут.",
+                    "target": "如果对话框中各控件的访问键（键盘快捷键）与系统快捷键或你重要的辅助技术功能冲突，可在此禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Уключэнне гэтага выдаліць радок, які вы ўсталявалі ў якасці глабальнага фільтра, з апісання задачы пры адлюстраванні задачы.",
+                    "target": "启用后，在显示任务时会从任务描述中移除你设为全局过滤器的那一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запыт, які аўтаматычна ўключаецца ў пачатку кожнага блока Tasks у сховішчы. Карысны для дадання фільтраў па змаўчанні або параметраў макета.",
+                    "target": "在仓库中每个 Tasks 块开头自动包含的查询。可用于添加默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Уключэнне гэтага зробіць наступнае паўтарэнне задачы на радку ніжэй за завершаную задачу. У адваротным выпадку наступнае паўтарэнне з'явіцца перад завершанай задачай.",
+                    "target": "启用后，下次重复任务将位于已完成任务的下一行。否则，下次重复将出现在已完成任务之前。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "WennBei Aktivierung können Sie diesen Status als Befehl nutzen und ihm eine Tastenkombination zuordnen, um den Status umzuschalten.",
+                    "target": "启用后，您可以将此状态作为命令使用，并为其分配快捷键以切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bei Klick verwenden Sie dies als das nächstverwendete Symbol.",
+                    "target": "点击时将其作为下一个使用的符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Der Anzeigename des Aufgabenstatus.",
+                    "target": "任务状态的显示名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Das Zeichen zwischen den eckigen Klammern. (Sie können es nur für benutzerdefinierte Status bearbeiten, nicht für Kernstatus.)",
+                    "target": "方括号之间的符号。（只能为自定义状态编辑，不能为核心状态编辑。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kontrollieren Sie, wie der Status beim Suchen und Umschalten funktioniert.",
+                    "target": "控制该状态在搜索和切换时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wie viele Vorschläge möchten Sie anzeigen, wenn ein Autosuggest-Menü aufgeht (einschließlich der \"⏎\"-Option).",
+                    "target": "自动建议菜单弹出时要显示多少条建议（包括“⏎”选项）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wenn größer als 0, löst Autosuggest nur aus, wenn Sie den Beginn eines unterstützten Schlüsselwortes erkennen.",
+                    "target": "如果大于 0，自动建议仅在识别到受支持关键字的开头时触发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Durch Aktivierung öffnet sich ein intelligentes Vorschlagsmenü, während Sie innerhalb einer erkannten Aufgabenzeile tippen.",
+                    "target": "启用后，在已识别的任务行内输入时会打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wenn aktiviert, füge beim Umschalten auf 'abgebrochen' automatisch ein Datum ❌ YYYY-MM-DD am Ende hinzu.",
+                    "target": "启用后，切换为“已取消”时会在末尾自动添加日期 ❌ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Füge bei Aktivierung beim Erstellen einer Aufgabe mit 'Erstellen oder Bearbeiten einer Aufgabe' oder beim Abschluss einer wiederkehrenden Aufgabe ein Datum ➕ YYYY-MM-DD vor anderen Datumswerten hinzu.",
+                    "target": "启用后，在使用“创建或编辑任务”创建任务或完成周期性任务时，会在其他日期值之前添加日期 ➕ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bei Aktivierung wird beim Umschalten auf 'erledigt' automatisch ein Datum ✅ YYYY-MM-DD am Ende hinzugefügt.",
+                    "target": "启用后，切换为“已完成”时会在末尾自动添加日期 ✅ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lassen Sie dieses Feld leer, wenn Sie standardmäßige geplante Datumsangaben überall verwenden wollen, oder geben Sie eine durch Kommas getrennte Liste von Ordnern ein.",
+                    "target": "如果要在所有地方使用默认计划日期，请留空，或输入用逗号分隔的文件夹列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aktiviert entfernt die Zeichenfolge, die Sie als globalen Filter gesetzt haben, aus der Aufgabenbeschreibung, wenn die Aufgabe angezeigt wird.",
+                    "target": "启用后，在显示任务时会从任务描述中移除你设置为全局过滤器的字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fügen Sie automatisch eine Abfrage am Anfang jedes Tasks-Blocks im Tresor hinzu. Nützlich für Standardfilter oder Layout-Optionen.",
+                    "target": "在保管库中每个 Tasks 块开头自动添加查询。适用于默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aktivieren Sie dies, damit das nächste Auftreten einer Aufgabe in der Zeile unterhalb der abgeschlossenen Aufgabe erscheint. Ansonsten erscheint es vor der abgeschlossenen Aufgabe.",
+                    "target": "启用此项可使任务的下一次重复出现在已完成任务的下一行。否则会出现在已完成任务之前。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If enabled this status will be available as a command so you can assign a hotkey and toggle the status using it.",
+                    "target": "启用后，此状态将作为命令可用，因此你可以分配快捷键并用其切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When clicked on this is the symbol that should be used next.",
+                    "target": "点击时接下来应使用的符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This is the friendly name of the task status.",
+                    "target": "这是任务状态的友好名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This is the character between the square braces. (It can only be edited for Custom statuses, and not Core statuses.)",
+                    "target": "这是方括号之间的字符。（仅可编辑自定义状态，不能编辑核心状态。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Control how the status behaves for searching and toggling.",
+                    "target": "控制该状态在搜索和切换时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How many suggestions should be shown when an auto-suggest menu pops up (including the \"⏎\" option).",
+                    "target": "自动建议菜单弹出时应显示多少条建议（包括“⏎”选项）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If higher than 0, auto-suggest will be triggered only when the beginning of any supported keywords is recognized.",
+                    "target": "如果大于 0，只有在识别到任一受支持关键字的开头时才触发自动建议。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enabling this will open an intelligent suggest menu while typing inside a recognized task line.",
+                    "target": "启用后，在已识别的任务行内输入时会打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enabling this will add a timestamp ❌ YYYY-MM-DD at the end when a task is toggled to cancelled.",
+                    "target": "启用后，当任务切换为取消时，会在末尾添加时间戳 ❌ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enabling this will add a timestamp ➕ YYYY-MM-DD before other date values, when a task is created with 'Create or edit task', or by completing a recurring task.",
+                    "target": "启用后，当通过 'Create or edit task' 创建任务或完成重复任务时，会在其他日期值之前添加时间戳 ➕ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enabling this will add a timestamp ✅ YYYY-MM-DD at the end when a task is toggled to done.",
+                    "target": "启用后，当任务切换为完成时，会在末尾添加时间戳 ✅ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A query that is automatically included at the start of every Tasks block in the vault. Useful for adding default filters, or layout options.",
+                    "target": "在保管库中每个 Tasks 块开头自动包含的查询。适用于添加默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enabling this will make the next recurrence of a task appear on the line below the completed task. Otherwise the next recurrence will appear before the completed one.",
+                    "target": "启用后将使任务的下一次重复出现在已完成任务的下一行。否则下一次重复会出现在已完成任务之前。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 이 상태를 명령어(command)로 사용할 수 있어 단축키를 지정하고 상태를 전환할 수 있습니다.",
+                    "target": "启用后可将此状态作为命令使用，因此可以指定快捷键并切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "클릭 시 다음에 사용할 기호입니다.",
+                    "target": "点击时将使用的下一个符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "작업 상태를 알아보기 쉽게 표현하는 이름입니다.",
+                    "target": "用于清楚表达任务状态的名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "대괄호 '[]' 사이에 들어가는 문자입니다. (코어 상태가 아닌 사용자 정의 상태만 편집할 수 있습니다.)",
+                    "target": "位于方括号“[]”之间的字符。（仅可编辑自定义状态，不能编辑核心状态。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "검색 및 상태 전환 시 어떻게 동작할지 제어합니다.",
+                    "target": "控制状态在搜索和切换时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "자동 제안 메뉴가 나타날 때 표시할 제안의 개수입니다 ('⏎' 옵션 포함).",
+                    "target": "自动建议菜单出现时要显示的建议数量（包含“⏎”选项）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "0보다 큰 값이면, 지원되는 키워드의 시작 부분이 인식될 때만 자동 제안이 실행됩니다.",
+                    "target": "如果值大于 0，仅当识别到支持的关键字开头时才触发自动建议。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 인식된 작업 줄에서 입력하는 동안 지능형 제안 메뉴가 열립니다.",
+                    "target": "启用后，在已识别的任务行中输入时会打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 작업을 '취소'로 전환할 때 마지막에 ❌ YYYY-MM-DD 타임스탬프가 추가됩니다.",
+                    "target": "启用后，当任务切换为“取消”时，会在末尾添加 ❌ YYYY-MM-DD 时间戳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 '작업 생성/편집'으로 작업을 만들거나 반복 작업을 완료할 때, 다른 날짜 값 앞에 ➕ YYYY-MM-DD 타임스탬프가 추가됩니다.",
+                    "target": "启用后，当通过“任务创建/编辑”创建任务或完成重复任务时，会在其他日期值之前添加 ➕ YYYY-MM-DD 时间戳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 작업을 '완료'로 전환할 때 마지막에 ✅ YYYY-MM-DD 타임스탬프가 추가됩니다.",
+                    "target": "启用后，当任务切换为“完成”时，会在末尾添加 ✅ YYYY-MM-DD 时间戳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "모든 곳에서 기본 예정일을 사용하려면 비워 두고, 특정 폴더만 지정하려면 쉼표로 구분된 폴더 목록을 입력하세요.",
+                    "target": "如需在所有地方使用默认计划日期请留空，或输入用逗号分隔的文件夹列表以指定特定文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "대화상자의 단축키(접근 키)가 시스템 단축키나 보조 기술 기능과 충돌한다면, 여기서 비활성화할 수 있습니다.",
+                    "target": "如果对话框的快捷键（访问键）与系统快捷键或辅助技术功能冲突，可在此禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 작업 표시 시 설명에서 전역 필터 문자열을 제거합니다.",
+                    "target": "启用后，在显示任务时会从描述中移除全局过滤器字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "보관소의 모든 Tasks 블록 시작에 자동으로 포함되는 쿼리입니다. 기본 필터나 레이아웃 옵션을 추가할 때 유용합니다.",
+                    "target": "在保管库中每个 Tasks 块开头自动包含的查询。适用于添加默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 완료된 작업의 바로 아래 줄에 다음 반복이 나타납니다. 비활성화 시 다음 반복은 완료된 작업 앞에 나타납니다.",
+                    "target": "启用后，下一次重复会出现在已完成任务的下一行。禁用时，下一次重复会出现在已完成任务之前。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Если включено, этот статус будет доступен как команда, поэтому вы можете назначить горячую клавишу и переключать статус с ее помощью.",
+                    "target": "启用后，此状态将作为命令可用，因此你可以分配快捷键并用其切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "При нажатии это символ, который следует использовать следующим.",
+                    "target": "点击时应使用的下一个符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Это понятное имя статуса задачи.",
+                    "target": "任务状态的易懂名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Это символ между квадратными скобками. (Его можно редактировать только для пользовательских статусов, но не для основных.)",
+                    "target": "方括号之间的符号。（只能编辑自定义状态，不能编辑核心状态。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Управление поведением статуса при поиске и переключении.",
+                    "target": "控制状态在搜索和切换时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Сколько предложений следует показывать при появлении меню автоподсказок (включая опцию \"⏎\").",
+                    "target": "自动建议菜单弹出时应显示多少条建议（包括“⏎”选项）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Если больше 0, автоподсказки будут срабатывать только тогда, когда будет распознано начало любого из поддерживаемых ключевых слов.",
+                    "target": "如果大于 0，只有在识别到任一受支持关键字的开头时才会触发自动建议。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Включение этой опции откроет интеллектуальное меню предложений при вводе текста внутри распознанной строки задачи.",
+                    "target": "启用此选项后，在已识别的任务行内输入时会打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Включение этой опции добавит отметку времени ❌ YYYY-MM-DD в конце, когда задача переключается в отмененную.",
+                    "target": "启用此选项后，当任务切换为取消时，会在末尾添加 ❌ YYYY-MM-DD 时间戳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Включение этой опции добавит отметку времени ➕ YYYY-MM-DD перед другими значениями даты, когда задача создается с помощью 'Create or edit task' или при завершении повторяющейся задачи.",
+                    "target": "启用此选项后，当通过 'Create or edit task' 创建任务或完成重复任务时，会在其他日期值之前添加 ➕ YYYY-MM-DD 时间戳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Включение этой опции добавит отметку времени ✅ YYYY-MM-DD в конце, когда задача переключается в выполненную.",
+                    "target": "启用此选项后，当任务切换为完成时，会在末尾添加 ✅ YYYY-MM-DD 时间戳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Оставьте пустым, если вы хотите использовать запланированные даты по умолчанию везде, или введите список папок через запятую.",
+                    "target": "如需在所有地方使用默认计划日期请留空，或输入用逗号分隔的文件夹列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Если клавиши доступа (сочетания клавиш) для различных элементов управления в диалоговых окнах конфликтуют с системными сочетаниями клавиш или функциями вспомогательных технологий, которые важны для вас, вы можете деактивировать их здесь.",
+                    "target": "如果对话框中各控件的访问键（快捷键）与系统快捷键或对你重要的辅助技术功能冲突，可在此停用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Включение этой опции удаляет строку, которую вы установили в качестве глобального фильтра, из описания задачи при отображении задачи.",
+                    "target": "启用此选项会在显示任务时从任务描述中删除你设置为全局过滤器的字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запрос, который автоматически включается в начало каждого блока Tasks в хранилище. Полезно для добавления фильтров по умолчанию или параметров макета.",
+                    "target": "在保管库中每个 Tasks 块开头自动包含的查询。适用于添加默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Включение этой опции приведет к тому, что следующее повторение задачи появится на строке ниже завершенной задачи. В противном случае следующее повторение появится перед завершенной.",
+                    "target": "启用此选项会使任务的下一次重复出现在已完成任务的下一行。否则下一次重复会出现在已完成任务之前。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Якщо ввімкнено, цей статус буде доступний як команда, щоб ви могли призначити гарячу клавішу та перемикати статус за її допомогою.",
+                    "target": "启用后，此状态将作为命令可用，因此你可以分配快捷键并用其切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Символ, який має використовуватися наступним при натисканні.",
+                    "target": "单击时接下来要使用的符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Це зрозуміла назва статусу задачі.",
+                    "target": "这是任务状态的易读名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Це символ між квадратними дужками. (Його можна редагувати лише для користувацьких статусів, а не для основних статусів.)",
+                    "target": "这是方括号中的字符。（仅可为自定义状态编辑，不可为核心状态编辑。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Керуйте тим, як статус поводиться під час пошуку та перемикання.",
+                    "target": "控制状态在搜索和切换时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Скільки пропозицій має відображатися, коли з’являється меню автозаповнення (включаючи опцію \"⏎\").",
+                    "target": "当自动补全菜单出现时应显示多少条建议（包括“⏎”选项）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Якщо значення більше 0, автозаповнення буде запускатися лише тоді, коли розпізнається початок будь-яких підтримуваних ключових слів.",
+                    "target": "如果值大于 0，只有识别到任何受支持关键字的开头时才会触发自动补全。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкнення цього параметра відкриє інтелектуальне меню пропозицій під час введення тексту всередині розпізнаного рядка задачі.",
+                    "target": "启用此选项将在已识别的任务行内输入时打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкнення цього параметра додасть позначку часу ❌ YYYY-MM-DD в кінці, коли задача перемикається в скасований стан.",
+                    "target": "启用此选项将在任务切换为取消状态时在末尾添加时间戳 ❌ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкнення цього параметра додасть позначку часу ➕ YYYY-MM-DD перед іншими значеннями дат, коли задача створюється за допомогою 'Створити або редагувати задачу' або шляхом завершення повторюваної задачі.",
+                    "target": "启用此选项将在通过“创建或编辑任务”创建任务或完成重复任务时，在其他日期值之前添加时间戳 ➕ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкнення цього параметра додасть позначку часу ✅ YYYY-MM-DD в кінці, коли задача перемикається у виконаний стан.",
+                    "target": "启用此选项将在任务切换为完成状态时在末尾添加时间戳 ✅ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Залиште порожнім, якщо ви хочете використовувати заплановані дати за замовчуванням всюди, або введіть список папок, розділених комами.",
+                    "target": "若要在全局使用默认计划日期，请留空，或输入以逗号分隔的文件夹列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Якщо клавіші доступу (комбінації клавіш) для різних елементів керування в діалогових вікнах конфліктують із системними комбінаціями клавіш або функціональністю допоміжних технологій, які важливі для вас, ви можете деактивувати їх тут.",
+                    "target": "如果对话框中各种控件的访问键（快捷键）与系统快捷键或对您重要的辅助技术功能冲突，您可以在此处将其禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкнення цього параметра видаляє рядок, який ви встановили як глобальний фільтр, з опису задачі під час відображення задачі.",
+                    "target": "启用此选项将在显示任务时从任务描述中删除设为全局过滤器的字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запит, який автоматично включається на початку кожного блоку Tasks у сховищі. Корисно для додавання фільтрів за замовчуванням або параметрів макета.",
+                    "target": "自动包含在库中每个 Tasks 块开头的查询。用于添加默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкнення цього параметра змусить наступне повторення задачі з’являтися на рядку нижче завершеної задачі. Інакше наступне повторення з’явиться перед завершеною.",
+                    "target": "启用此选项会使任务的下一次重复显示在已完成任务的下一行；否则会显示在已完成任务之前。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nếu bật, trạng thái này sẽ khả dụng dưới dạng lệnh để bạn có thể gán phím tắt và chuyển đổi trạng thái bằng lệnh đó.",
+                    "target": "启用后，此状态将作为命令可用，以便您可以分配快捷键并通过该命令切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Khi kích vào đây là ký hiệu sẽ được sử dụng tiếp theo.",
+                    "target": "单击时，这是接下来要使用的符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Đây là tên thân thiện của trạng thái nhiệm vụ.",
+                    "target": "这是任务状态的易读名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Đây là ký tự nằm giữa dấu ngoặc vuông. (Chỉ có thể chỉnh sửa cho trạng thái Tùy chỉnh, không phải trạng thái Cốt lõi.)",
+                    "target": "这是方括号中的字符。（仅可为自定义状态编辑，不可为核心状态编辑。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kiểm soát cách trạng thái hoạt động khi tìm kiếm và chuyển trạng thái.",
+                    "target": "控制状态在搜索和切换时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Số lượng gợi ý sẽ được hiển thị khi menu gợi ý tự động xuất hiện (bao gồm tùy chọn \"⏎\").",
+                    "target": "当自动建议菜单出现时应显示多少条建议（包括“⏎”选项）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nếu cao hơn 0, gợi ý tự động sẽ chỉ được kích hoạt khi phần đầu của bất kỳ từ khóa được hỗ trợ nào được nhận ra.",
+                    "target": "如果值大于 0，只有识别到任何受支持关键字的开头时才会触发自动建议。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bật tính năng này sẽ mở menu gợi ý thông minh khi gõ bên trong dòng nhiệm vụ được nhận dạng.",
+                    "target": "启用此功能将在已识别的任务行内输入时打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bật tính năng này sẽ thêm dấu thời gian ❌ YYYY-MM-DD vào cuối khi nhiệm vụ được chuyển sang bị hủy.",
+                    "target": "启用此功能将在任务切换为取消时在末尾添加时间戳 ❌ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bật tính năng này sẽ thêm dấu thời gian ➕ YYYY-MM-DD trước các giá trị ngày khác, khi nhiệm vụ được tạo bằng 'Tạo hoặc chỉnh sửa nhiệm vụ', hoặc bằng cách hoàn thành nhiệm vụ định kỳ.",
+                    "target": "启用此功能将在通过“创建或编辑任务”创建任务或完成周期性任务时，在其他日期值之前添加时间戳 ➕ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bật tính năng này sẽ thêm dấu thời gian ✅ YYYY-MM-DD vào cuối khi nhiệm vụ được chuyển sang hoàn thành.",
+                    "target": "启用此功能将在任务切换为完成时在末尾添加时间戳 ✅ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Để trống nếu bạn muốn sử dụng ngày Đã lên lịch mặc định ở mọi nơi, hoặc nhập danh sách các thư mục được phân tách bằng dấu phẩy.",
+                    "target": "若要在全局使用默认计划日期，请留空，或输入以逗号分隔的文件夹列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nếu các phím truy cập (phím tắt) cho các điều khiển khác nhau trong hộp thoại xung đột với phím tắt hệ thống hoặc chức năng công nghệ hỗ trợ quan trọng đối với bạn, bạn có thể vô hiệu hóa chúng tại đây.",
+                    "target": "如果对话框中各种控件的访问键（快捷键）与系统快捷键或对您重要的辅助技术功能冲突，您可以在此处将其禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bật tính năng này sẽ xóa chuỗi mà bạn đặt làm bộ lọc toàn cục khỏi mô tả nhiệm vụ khi hiển thị nhiệm vụ.",
+                    "target": "启用此功能将在显示任务时从任务描述中删除设为全局过滤器的字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Một truy vấn được tự động bao gồm ở đầu mỗi khối Tasks trong vault. Hữu ích để thêm bộ lọc mặc định hoặc tùy chọn bố cục.",
+                    "target": "自动包含在库中每个 Tasks 块开头的查询。用于添加默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bật tính năng này sẽ làm cho lần lặp lại tiếp theo của nhiệm vụ xuất hiện trên dòng bên dưới nhiệm vụ đã hoàn thành. Nếu không, lần lặp lại tiếp theo sẽ xuất hiện trước lần đã hoàn thành.",
+                    "target": "启用此功能会使任务的下一次重复显示在已完成任务的下一行；否则会显示在已完成任务之前。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "如果启用，此状态将作为命令可用,因此您可以指定快捷键并使用它切换状态。",
+                    "target": "如果启用，此状态将作为命令可用,因此您可以指定快捷键并使用它切换状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "单击时，这是下一步应该使用的符号。",
+                    "target": "单击时，这是下一步应该使用的符号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "这是任务状态的友好名称.",
+                    "target": "这是任务状态的友好名称."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "这是方括号中的字符。（仅可编辑自定义状态,不可编辑核心状态。）",
+                    "target": "这是方括号中的字符。（仅可编辑自定义状态,不可编辑核心状态。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "控制搜索和切换状态的行为。",
+                    "target": "控制搜索和切换状态的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "当自动建议菜单弹出时，应显示多少条建议 (包含 \"⏎\" 选项)。",
+                    "target": "当自动建议菜单弹出时，应显示多少条建议 (包含 \"⏎\" 选项)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "如果高于0，则只有在识别出任何支持的关键字的开头时才会触发自动建议。",
+                    "target": "如果高于0，则只有在识别出任何支持的关键字的开头时才会触发自动建议。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用此功能将在识别的任务行内输入时打开智能建议菜单。",
+                    "target": "启用此功能将在识别的任务行内输入时打开智能建议菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用此功能将在任务设置为取消时，在其末尾添加时间戳 ❌ YYYY-MM-DD。",
+                    "target": "启用此功能将在任务设置为取消时，在其末尾添加时间戳 ❌ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用此功能将在通过“Create or edit task”命令或完成重复任务时，在其他日期值之前添加时间戳➕YYYY-MM-DD。",
+                    "target": "启用此功能将在通过“Create or edit task”命令或完成重复任务时，在其他日期值之前添加时间戳➕YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用此功能将在任务被设置为完成时，在其末尾添加时间戳 ✅ YYYY-MM-DD。",
+                    "target": "启用此功能将在任务被设置为完成时，在其末尾添加时间戳 ✅ YYYY-MM-DD。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "如果要在全局使用默认的计划日期，请保留为空,或者输入以逗号分隔的文件夹列表。",
+                    "target": "如果要在全局使用默认的计划日期，请保留为空,或者输入以逗号分隔的文件夹列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "如果对话框中各种控件的快捷键与系统快捷键发生冲突，您可以在这里停用它们。",
+                    "target": "如果对话框中各种控件的快捷键与系统快捷键发生冲突，您可以在这里停用它们。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用此选项将在显示任务时从任务描述中删除设置为全局筛选器的字符串.",
+                    "target": "启用此选项将在显示任务时从任务描述中删除设置为全局筛选器的字符串."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "自动包含在库中每个 Tasks 块开头的查询语句.用于添加默认过滤器或布局选项。",
+                    "target": "自动包含在库中每个 Tasks 块开头的查询语句.用于添加默认过滤器或布局选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用此功能后，任务的下一次重复将显示在已完成任务的下一行。若关闭此功能，则下一次重复将出现在已完成任务的上一行。",
+                    "target": "启用此功能后，任务的下一次重复将显示在已完成任务的下一行。若关闭此功能，则下一次重复将出现在已完成任务的上一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Аўтападказка",
+                    "target": "自动建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Даты",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Даты з імёнаў файлаў",
+                    "target": "从文件名提取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Дыялогі",
+                    "target": "对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Глабальны фільтр задач",
+                    "target": "全局任务过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Глабальны запыт",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Перыядычныя задачы",
+                    "target": "重复任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Асноўныя статусы",
+                    "target": "核心状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Карыстальніцкія статусы",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Статусы задач",
+                    "target": "任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Daten aus Dateinamen",
+                    "target": "从文件名获取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Globaler Aufgabenfilter",
+                    "target": "全局任务过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Globale Abfrage",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Wiederkehrende Aufgaben",
+                    "target": "重复任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Benutzerdefinierte Status",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Dates from file names",
+                    "target": "从文件名获取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Global task filter",
+                    "target": "全局任务过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Global Query",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Recurring tasks",
+                    "target": "重复任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Core Statuses",
+                    "target": "核心状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Custom Statuses",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Task Statuses",
+                    "target": "任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "자동 제안",
+                    "target": "自动建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "날짜",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "파일명에서 날짜 사용",
+                    "target": "从文件名获取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "대화상자",
+                    "target": "对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "전역 작업 필터",
+                    "target": "全局任务过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "전역 쿼리",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "반복 작업",
+                    "target": "重复任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "코어 상태",
+                    "target": "核心状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "사용자 정의 상태",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "작업 상태",
+                    "target": "任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Автоподсказки",
+                    "target": "自动建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Даты из имен файлов",
+                    "target": "从文件名获取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Диалоги",
+                    "target": "对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Глобальный фильтр задач",
+                    "target": "全局任务过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Глобальный запрос",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Повторяющиеся задачи",
+                    "target": "重复任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Основные статусы",
+                    "target": "核心状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Пользовательские статусы",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Автозаповнення",
+                    "target": "自动补全"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Дати",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Дати з назв файлів",
+                    "target": "从文件名获取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Діалогові вікна",
+                    "target": "对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Глобальний фільтр задач",
+                    "target": "全局任务过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Глобальний запит",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Повторювані задачі",
+                    "target": "重复任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Основні статуси",
+                    "target": "核心状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Користувацькі статуси",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Статуси задач",
+                    "target": "任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Gợi ý tự động",
+                    "target": "自动建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Ngày tháng",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Ngày từ tên file",
+                    "target": "从文件名获取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Hộp thoại",
+                    "target": "对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Bộ lọc nhiệm vụ toàn cục",
+                    "target": "全局任务筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Truy vấn toàn cục",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Nhiệm vụ định kỳ",
+                    "target": "重复性任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Trạng thái cốt lõi",
+                    "target": "核心状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Trạng thái tùy chỉnh",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Trạng thái nhiệm vụ",
+                    "target": "任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "自动建议",
+                    "target": "自动建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "日期",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "从文件名中提取日期",
+                    "target": "从文件名中提取日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "对话框",
+                    "target": "对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "全局任务筛选器",
+                    "target": "全局任务筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "全局查询",
+                    "target": "全局查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "重复性任务",
+                    "target": "重复性任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "核心状态",
+                    "target": "核心状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "自定义状态",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "任务状态",
+                    "target": "任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Даступны ў якасці каманды",
+                    "target": "可作为命令使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Сімвал наступнага статусу задачы",
+                    "target": "下一个任务状态的符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Імя статусу задачы",
+                    "target": "任务状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Сімвал статусу задачы",
+                    "target": "任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Тып статусу задачы",
+                    "target": "任务状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Максімальная колькасць аўтаматычных прапаноў для паказу",
+                    "target": "显示的自动建议最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Мінімальная даўжыня супадзення для аўтаматычнай прапановы",
+                    "target": "自动建议的最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Аўтаматычна прапаноўваць змест задачы",
+                    "target": "自动建议任务内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Устанавіць дату адмены для кожнай адмененай задачы",
+                    "target": "为每个已取消的任务设置取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Устанавіць дату стварэння для кожнай дададзенай задачы",
+                    "target": "为每个新增任务设置创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Устанавіць дату выканання для кожнай выкананай задачы",
+                    "target": "为每个已完成任务设置完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Дадатковы фармат даты імя файла ў якасці запланаванай даты для задач без даты",
+                    "target": "将文件名中的附加日期格式作为无日期任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Тэчкі з запланаванымі датамі па змаўчанні",
+                    "target": "具有默认计划日期的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Выкарыстоўваць імя файла ў якасці запланаванай даты для задач без даты",
+                    "target": "将文件名用作无日期任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Забяспечыць клавішы доступу ў дыялогах",
+                    "target": "在对话框中提供访问键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Фармат задачы",
+                    "target": "任务格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Глабальны фільтр",
+                    "target": "全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Выдаліць глабальны фільтр з апісання",
+                    "target": "从描述中移除全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Наступнае паўтарэнне з'яўляецца на радку ніжэй",
+                    "target": "下次重复显示在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Праглядзець і праверыць вашы статусы",
+                    "target": "查看并检查你的状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Дадаць усе невядомыя тыпы статусаў",
+                    "target": "添加所有未知状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Дадаць новы статус задачы",
+                    "target": "添加新的任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Скінуць карыстальніцкія тыпы статусаў да значэнняў па змаўчанні",
+                    "target": "将自定义状态类型重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verfügbar als Befehl",
+                    "target": "可作为命令使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symbol für nächsten Status",
+                    "target": "下一个状态的符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name des Aufgabenstatus",
+                    "target": "任务状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symbol des Aufgabenstatus",
+                    "target": "任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Typ des Aufgabenstatus",
+                    "target": "任务状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximale Anzahl von Autosuggest-Vorschlägen anzeigen",
+                    "target": "显示的自动建议最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimale Übereinstimmungslänge für Autosuggest",
+                    "target": "自动建议的最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aufgabentext automatisch vorschlagen",
+                    "target": "自动建议任务文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abbruch-Datum bei jeder abgebrochenen Aufgabe festlegen",
+                    "target": "为每个已取消的任务设置取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Erstellungsdatum bei jeder hinzugefügten Aufgabe festlegen",
+                    "target": "为每个新增任务设置创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Erledigungsdatum bei jeder abgeschlossenen Aufgabe festlegen",
+                    "target": "为每个已完成任务设置完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zusätzliches Datumsformat für Dateinamen als geplantes Datum für undatierte Aufgaben",
+                    "target": "为无日期任务将文件名日期格式作为计划日期的附加格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ordner mit standardmäßigen geplanten Datumsangaben",
+                    "target": "具有默认计划日期的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dateinamen als geplantes Datum für undatierte Aufgaben verwenden",
+                    "target": "为无日期任务使用文件名作为计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zugriffsschlüssel in Dialogen bereitstellen",
+                    "target": "在对话框中提供访问键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Globaler Filter",
+                    "target": "全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Globalen Filter aus Beschreibung entfernen",
+                    "target": "从描述中移除全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nächste Wiederholung erscheint in Zeile darunter",
+                    "target": "下一次重复显示在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Geplantes Datum bei Wiederholung entfernen",
+                    "target": "重复时移除计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Überprüfen und einsehen Sie Ihre Status-Einträge",
+                    "target": "查看并检查您的状态条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alle unbekannten Statustypen hinzufügen",
+                    "target": "添加所有未知状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Neuen Aufgabenstatus hinzufügen",
+                    "target": "添加新任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Benutzerdefinierte Statustypen auf Standard zurücksetzen",
+                    "target": "将自定义状态类型重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Available as command",
+                    "target": "可用作命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Task Next Status Symbol",
+                    "target": "任务下一状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Task Status Name",
+                    "target": "任务状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Task Status Symbol",
+                    "target": "任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Task Status Type",
+                    "target": "任务状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximum number of auto-suggestions to show",
+                    "target": "自动建议最大显示数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimum match length for auto-suggest",
+                    "target": "自动建议的最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-suggest task content",
+                    "target": "自动建议任务内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set cancelled date on every cancelled task",
+                    "target": "为每个已取消任务设置取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set created date on every added task",
+                    "target": "为每个新增任务设置创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set done date on every completed task",
+                    "target": "为每个已完成任务设置完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Additional filename date format as Scheduled date for undated tasks",
+                    "target": "为无日期任务将文件名日期格式作为计划日期的附加格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folders with default Scheduled dates",
+                    "target": "具有默认计划日期的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use filename as Scheduled date for undated tasks",
+                    "target": "为无日期任务使用文件名作为计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Provide access keys in dialogs",
+                    "target": "在对话框中提供访问键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Task Format",
+                    "target": "任务格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Global filter",
+                    "target": "全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next recurrence appears on the line below",
+                    "target": "下一次重复显示在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Review and check your Statuses",
+                    "target": "查看并检查您的状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add All Unknown Status Types",
+                    "target": "添加所有未知状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add New Task Status",
+                    "target": "添加新任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset Custom Status Types to Defaults",
+                    "target": "将自定义状态类型重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "명령어로 사용",
+                    "target": "用作命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "다음 상태 기호",
+                    "target": "下一状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "상태 이름",
+                    "target": "状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "상태 기호",
+                    "target": "状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "상태 유형",
+                    "target": "状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "자동 제안 최대 표시 개수",
+                    "target": "自动建议最大显示数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "자동 제안 최소 일치 길이",
+                    "target": "自动建议最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "작업 내용 자동 제안",
+                    "target": "自动建议任务内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "모든 취소된 작업에 취소 날짜 설정",
+                    "target": "为所有已取消任务设置取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "모든 추가된 작업에 생성 날짜 설정",
+                    "target": "为所有新增任务设置创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "모든 완료된 작업에 완료 날짜 설정",
+                    "target": "为所有已完成任务设置完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "날짜 없는 작업의 예정일로 사용할 추가 파일명 날짜 형식",
+                    "target": "为无日期任务将文件名日期格式作为计划日期的附加格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "기본 예정일을 사용할 폴더",
+                    "target": "使用默认计划日期的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "날짜 없는 작업에 파일명을 예정일로 사용",
+                    "target": "为无日期任务使用文件名作为计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "대화상자에서 접근 키 제공",
+                    "target": "在对话框中提供访问键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "작업 형식",
+                    "target": "任务类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "전역 필터",
+                    "target": "全局过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "설명에서 전역 필터 제거",
+                    "target": "从描述中移除全局过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "프리셋",
+                    "target": "预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "다음 반복을 아래 줄에 표시",
+                    "target": "下一次重复显示在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "반복 시 예정일 제거",
+                    "target": "重复时移除计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "상태 검토 및 확인",
+                    "target": "查看并确认状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "알 수 없는 모든 상태 유형 추가",
+                    "target": "添加所有未知状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "새 작업 상태 추가",
+                    "target": "添加新任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "사용자 정의 상태를 기본값으로 재설정",
+                    "target": "将自定义状态重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Доступно как команда",
+                    "target": "可作为命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Символ следующего статуса задачи",
+                    "target": "下一个任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Имя статуса задачи",
+                    "target": "任务状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Символ статуса задачи",
+                    "target": "任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Тип статуса задачи",
+                    "target": "任务状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Максимальное количество отображаемых автоподсказок",
+                    "target": "显示的自动建议最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Минимальная длина совпадения для автоподсказок",
+                    "target": "自动建议的最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Автоматически предлагать содержимое задачи",
+                    "target": "自动建议任务内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Устанавливать дату отмены для каждой отмененной задачи",
+                    "target": "为每个已取消任务设置取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Устанавливать дату создания для каждой добавленной задачи",
+                    "target": "为每个新增任务设置创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Устанавливать дату выполнения для каждой выполненной задачи",
+                    "target": "为每个已完成任务设置完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Дополнительный формат даты из имени файла в качестве запланированной даты для задач без указанной даты",
+                    "target": "将文件名中的附加日期格式作为无日期任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Папки с запланированными датами по умолчанию",
+                    "target": "默认计划日期文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Использовать имя файла как запланированную дату для задач без указанной даты",
+                    "target": "将文件名作为无日期任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Предоставлять клавиши доступа в диалоговых окнах",
+                    "target": "在对话框中提供访问键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Формат задач",
+                    "target": "任务格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Глобальный фильтр",
+                    "target": "全局过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Удалять глобальный фильтр из описания",
+                    "target": "从描述中删除全局过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Следующее повторение появляется на строке ниже",
+                    "target": "下一次重复出现在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Просмотреть и проверить свои статусы",
+                    "target": "查看并检查你的状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Добавить все неизвестные типы статусов",
+                    "target": "添加所有未知状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Добавить новый статус задачи",
+                    "target": "添加新任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Сбросить пользовательские типы статусов к значениям по умолчанию",
+                    "target": "将自定义状态类型重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Доступний як команда",
+                    "target": "可作为命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Символ наступного статусу задачі",
+                    "target": "下一个任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Назва статусу задачі",
+                    "target": "任务状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Символ статусу задачі",
+                    "target": "任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Тип статусу задачі",
+                    "target": "任务状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Максимальна кількість пропозицій для відображення",
+                    "target": "显示的建议最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Мінімальна довжина збігу для автозаповнення",
+                    "target": "自动补全的最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Автозаповнення вмісту задачі",
+                    "target": "自动补全任务内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Встановити дату скасування для кожної скасованої задачі",
+                    "target": "为每个已取消任务设置取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Встановити дату створення для кожної доданої задачі",
+                    "target": "为每个新增任务设置创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Встановити дату виконання для кожної завершеної задачі",
+                    "target": "为每个已完成任务设置完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Додатковий формат дати назви файлу як запланована дата для задач без дати",
+                    "target": "将文件名日期的附加格式作为无日期任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Папки з запланованими датами за замовчуванням",
+                    "target": "默认计划日期文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Використовувати назву файлу як заплановану дату для задач без дати",
+                    "target": "将文件名作为无日期任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Надавати клавіші доступу в діалогових вікнах",
+                    "target": "在对话框中提供访问键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Глобальний фільтр",
+                    "target": "全局过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Видалити глобальний фільтр з опису",
+                    "target": "从描述中删除全局过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Наступне повторення з’являється на рядку нижче",
+                    "target": "下一次重复显示在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Переглянути та перевірити ваші статуси",
+                    "target": "查看并检查您的状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Додати всі невідомі типи статусів",
+                    "target": "添加所有未知的状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Додати новий статус задачі",
+                    "target": "添加新的任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Скинути користувацькі типи статусів до значень за замовчуванням",
+                    "target": "将自定义状态类型重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Khả dụng dưới dạng lệnh",
+                    "target": "可用作命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ký hiệu trạng thái tiếp theo",
+                    "target": "下一个状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tên trạng thái nhiệm vụ",
+                    "target": "任务状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ký hiệu trạng thái nhiệm vụ",
+                    "target": "任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Loại trạng thái nhiệm vụ",
+                    "target": "任务状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Số lượng gợi ý tự động tối đa để hiển thị",
+                    "target": "要显示的最大自动建议数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Độ dài khớp tối thiểu cho gợi ý tự động",
+                    "target": "自动建议的最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gợi ý tự động nội dung nhiệm vụ",
+                    "target": "自动建议任务内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Đặt ngày hủy cho mọi nhiệm vụ bị hủy",
+                    "target": "为每个已取消的任务设置取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Đặt ngày tạo cho mọi nhiệm vụ được thêm",
+                    "target": "为每个已添加的任务设置创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Đặt ngày hoàn thành cho mọi nhiệm vụ đã hoàn thành",
+                    "target": "为每个已完成的任务设置完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Định dạng ngày tên file bổ sung làm ngày Đã lên lịch cho nhiệm vụ chưa có ngày",
+                    "target": "为无日期任务添加文件名日期格式作为计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thư mục có ngày Đã lên lịch mặc định",
+                    "target": "具有默认计划日期的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sử dụng tên file làm ngày Đã lên lịch cho nhiệm vụ chưa có ngày",
+                    "target": "将文件名用作无日期任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cung cấp phím truy cập trong hộp thoại",
+                    "target": "在对话框中提供快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Định dạng nhiệm vụ",
+                    "target": "任务格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bộ lọc toàn cục",
+                    "target": "全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Xóa bộ lọc toàn cục khỏi mô tả",
+                    "target": "从描述中移除全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lần lặp lại tiếp theo xuất hiện trên dòng bên dưới",
+                    "target": "下一次重复显示在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Xóa ngày đã lên lịch khi lặp lại",
+                    "target": "在重复时移除计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thêm tất cả loại trạng thái không xác định",
+                    "target": "添加所有未定义的状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thêm trạng thái nhiệm vụ mới",
+                    "target": "添加新的任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Đặt lại loại trạng thái tùy chỉnh về mặc định",
+                    "target": "将自定义状态类型重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "可用作命令",
+                    "target": "可用作命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务下一个状态符号",
+                    "target": "任务下一个状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务状态名称",
+                    "target": "任务状态名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务状态符号",
+                    "target": "任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务状态类型",
+                    "target": "任务状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "要显示的最大自动建议数",
+                    "target": "要显示的最大自动建议数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动建议的最小匹配长度",
+                    "target": "自动建议的最小匹配长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动建议任务内容",
+                    "target": "自动建议任务内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设置每个已取消的任务的取消日期",
+                    "target": "设置每个已取消的任务的取消日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设置每个已添加任务的创建日期",
+                    "target": "设置每个已添加任务的创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设置每个已完成任务的完成日期",
+                    "target": "设置每个已完成任务的完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "为无日期任务添加文件名日期格式作为计划日期",
+                    "target": "为无日期任务添加文件名日期格式作为计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "具有默认计划日期的文件夹",
+                    "target": "具有默认计划日期的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "将文件名用作未注明日期的任务的计划日期",
+                    "target": "将文件名用作未注明日期的任务的计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在对话框中使用快捷键",
+                    "target": "在对话框中使用快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务格式",
+                    "target": "任务格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "全局筛选器",
+                    "target": "全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "从描述中删除全局筛选器",
+                    "target": "从描述中删除全局筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "预设",
+                    "target": "预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "把任务的下一次重复放在下一行",
+                    "target": "把任务的下一次重复放在下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在重复性任务中移除计划日期",
+                    "target": "在重复性任务中移除计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "查看并检查您的状态",
+                    "target": "查看并检查您的状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加所有未知状态类型",
+                    "target": "添加所有未知状态类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加新任务状态",
+                    "target": "添加新任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重置自定义状态类型为默认值",
+                    "target": "重置自定义状态类型为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create or edit task",
+                    "target": "创建或编辑任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle task done",
+                    "target": "切换任务完成状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add all Query File Defaults properties",
+                    "target": "添加所有查询文件默认属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "прыклад: MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "напрыклад #task або TODO",
+                    "target": "例如 #task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Beispiel: MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "z.B. #task oder TODO",
+                    "target": "例如 #task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "example: MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g. #task or TODO",
+                    "target": "例如 #task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "예: MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "예: #task 또는 TODO",
+                    "target": "例如 #task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "пример: MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "например, #task или TODO",
+                    "target": "例如 #task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "приклад: MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "напр. #task або TODO",
+                    "target": "例如 #task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ví dụ: MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ví dụ: #task hoặc TODO",
+                    "target": "例如 #task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "示例：MMM DD YYYY",
+                    "target": "示例：MMM DD YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例如:#task 或 TODO",
+                    "target": "例如:#task 或 TODO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search for tasks that the task being edited depends on...",
+                    "target": "搜索正在编辑的任务所依赖的任务..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search for tasks that depend on this task being done...",
+                    "target": "搜索依赖此任务完成的任务..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Пра гэты файл",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Загружаныя налады",
+                    "target": "已加载的设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Прыклады задач",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Пошук па прыкладах задач",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Налады статусу",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Über diese Datei",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Geladene Einstellungen",
+                    "target": "已加载的设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Suche in den Beispielaufgaben",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "About this file",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Loaded Settings",
+                    "target": "已加载的设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sample Tasks",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Search the Sample Tasks",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Status Settings",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "이 파일에 대하여",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "로드된 설정",
+                    "target": "已加载的设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "예시 작업",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "예시 작업 검색",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "상태 설정",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Об этом файле",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Загруженные настройки",
+                    "target": "已加载的设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Примеры Задач",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Поиск по примерам задач",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Настройки статусов",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Про цей файл",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Завантажені налаштування",
+                    "target": "已加载的设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Приклади завдань",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Пошук у прикладах завдань",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Налаштування статусів",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Về file này",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Cài đặt đã tải",
+                    "target": "已加载设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nhiệm vụ mẫu",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tìm kiếm nhiệm vụ mẫu",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Cài đặt trạng thái",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "关于此文件",
+                    "target": "关于此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "已加载设置",
+                    "target": "已加载设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "样例任务",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "搜索样例任务",
+                    "target": "搜索示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "状态设置",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Стварыць новы файл у каранёвай тэчцы сховішча, які змяшчае дыяграму Mermaid з бягучымі наладамі статусу.",
+                    "target": "在库的根目录中创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Erstellen Sie eine neue Datei im Hauptverzeichnis des Tresors, die ein Mermaid-Diagramm der aktuellen Statuseinstellungen enthält.",
+                    "target": "在库的根目录中创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Create a new file in the root of the vault, containing a Mermaid diagram of the current status settings.",
+                    "target": "在库的根目录中创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "보관소 루트에 현재 상태 설정의 Mermaid 다이어그램을 포함한 새 파일을 생성합니다.",
+                    "target": "在库的根目录中创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Создать новый файл в корне хранилища, содержащий Mermaid диаграмму текущих настроек статусов.",
+                    "target": "在库的根目录中创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Створіть новий файл у корені сховища, що містить діаграму Mermaid поточних налаштувань статусу.",
+                    "target": "在库的根目录中创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Tạo file mới trong thư mục gốc của vault, chứa sơ đồ Mermaid của các cài đặt trạng thái hiện tại.",
+                    "target": "在库的根目录中创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "在库的根目录下创建一个新文件,包含当前状态设置的 Mermaid 图表.",
+                    "target": "在库的根目录下创建一个新文件，包含当前状态设置的 Mermaid 图表。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

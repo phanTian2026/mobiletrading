@@ -1,0 +1,380 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "calendar",
+        "version": "1.0.0",
+        "title": "Calendar",
+        "description": "Calendar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "td.svelte-egt0yd{border-right:1px solid var(--background-modifier-border)}.week-num.svelte-egt0yd{background-color:var(--color-background-weeknum);border-radius:4px;color:var(--color-text-weeknum);cursor:pointer;font-size:0.65em;height:100%;padding:4px;text-align:center;transition:background-color 0.1s ease-in, color 0.1s ease-in;vertical-align:baseline}.week-num.svelte-egt0yd:hover{background-color:var(--interactive-hover)}.week-num.active.svelte-egt0yd:hover{background-color:var(--interactive-accent-hover)}.active.svelte-egt0yd{color:var(--text-on-accent);background-color:var(--interactive-accent)}.dot-container.svelte-egt0yd{display:flex;flex-wrap:wrap;justify-content:center;line-height:6px;min-height:6px}",
+                    "target": "td.svelte-egt0yd{border-right:1px solid var(--background-modifier-border)}.week-num.svelte-egt0yd{background-color:var(--color-background-weeknum);border-radius:4px;color:var(--color-text-weeknum);cursor:pointer;font-size:0.65em;height:100%;padding:4px;text-align:center;transition:background-color 0.1s ease-in, color 0.1s ease-in;vertical-align:baseline}.week-num.svelte-egt0yd:hover{background-color:var(--interactive-hover)}.week-num.active.svelte-egt0yd:hover{background-color:var(--interactive-accent-hover)}.active.svelte-egt0yd{color:var(--text-on-accent);background-color:var(--interactive-accent)}.dot-container.svelte-egt0yd{display:flex;flex-wrap:wrap;justify-content:center;line-height:6px;min-height:6px}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "locale",
+                    "target": "locale"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "未找到自定义日记设置！",
+                    "target": "未找到自定义日记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "未找到自定义周记设置！",
+                    "target": "未找到自定义周记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "未找到自定义月记设置！",
+                    "target": "未找到自定义月记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Calendar] 未能找到日记文件夹",
+                    "target": "[Calendar] 未能找到日记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Calendar] 未能找到周记文件夹",
+                    "target": "[Calendar] 未能找到周记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "一个点代表多少个单词？",
+                    "target": "一个点代表多少个单词？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "创建新笔记前显示确认对话框",
+                    "target": "创建新笔记前显示确认对话框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用此项以添加周数统计列",
+                    "target": "启用此项以添加周数统计列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "更多语法帮助，请参考格式说明",
+                    "target": "更多语法帮助，请参考格式说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the file you want to use as the template for your weekly notes",
+                    "target": "Choose the file you want to use as the template for your weekly notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "新周记将保存至此目录",
+                    "target": "新周记将保存至此目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "若需使用非默认的地区语言，请在此设置",
+                    "target": "若需使用非默认的地区语言，请在此设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "每点代表单词数",
+                    "target": "每点代表单词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "每周起始日：",
+                    "target": "每周起始日："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建新笔记前确认",
+                    "target": "创建新笔记前确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示周数",
+                    "target": "显示周数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "周记格式",
+                    "target": "周记格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Weekly note template",
+                    "target": "Weekly note template"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "周记文件夹",
+                    "target": "周记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "覆盖语言地区：",
+                    "target": "覆盖语言地区："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read the daily note template",
+                    "target": "Failed to read the daily note template"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建新文件。",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开视图",
+                    "target": "打开视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开周记",
+                    "target": "打开周记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在日历中定位当前笔记",
+                    "target": "在日历中定位当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ 日记插件未启用",
+                    "target": "⚠️ 日记插件未启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "日历插件配合日记插件或 Periodic Notes 插件（可在社区插件市场下载）使用效果最佳。",
+                    "target": "日历插件配合日记插件或 Periodic Notes 插件（可在社区插件市场下载）使用效果最佳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "常规设置",
+                    "target": "常规设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "周记设置",
+                    "target": "周记设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "注意：周记设置功能正在迁移。建议安装 Periodic Notes 插件以确保未来功能可用。",
+                    "target": "注意：周记设置功能正在迁移。建议安装 Periodic Notes 插件以确保未来功能可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高级设置",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "算了",
+                    "target": "算了"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "新建日记",
+                    "target": "新建日记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "新建周记",
+                    "target": "新建周记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "上个月",
+                    "target": "上个月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "下个月",
+                    "target": "下个月"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Failed to read the daily note template\")",
+                    "target": "Notice(\"Failed to read the daily note template\")"
+                },
+                {
+                    "source": "Notice(\"无法创建新文件。\")",
+                    "target": "Notice(\"无法创建新文件。\")"
+                },
+                {
+                    "source": "setName(\"每点代表单词数\")",
+                    "target": "setName(\"每点代表单词数\")"
+                },
+                {
+                    "source": "setDesc(\"一个点代表多少个单词？\")",
+                    "target": "setDesc(\"一个点代表多少个单词？\")"
+                },
+                {
+                    "source": "setName(\"每周起始日：\")",
+                    "target": "setName(\"每周起始日：\")"
+                },
+                {
+                    "source": "setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")",
+                    "target": "setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")"
+                },
+                {
+                    "source": "setName(\"创建新笔记前确认\")",
+                    "target": "setName(\"创建新笔记前确认\")"
+                },
+                {
+                    "source": "setDesc(\"创建新笔记前显示确认对话框\")",
+                    "target": "setDesc(\"创建新笔记前显示确认对话框\")"
+                },
+                {
+                    "source": "setName(\"显示周数\")",
+                    "target": "setName(\"显示周数\")"
+                },
+                {
+                    "source": "setDesc(\"启用此项以添加周数统计列\")",
+                    "target": "setDesc(\"启用此项以添加周数统计列\")"
+                },
+                {
+                    "source": "setName(\"周记格式\")",
+                    "target": "setName(\"周记格式\")"
+                },
+                {
+                    "source": "setDesc(\"更多语法帮助，请参考格式说明\")",
+                    "target": "setDesc(\"更多语法帮助，请参考格式说明\")"
+                },
+                {
+                    "source": "setName(\"Weekly note template\")",
+                    "target": "setName(\"Weekly note template\")"
+                },
+                {
+                    "source": "setDesc(\"Choose the file you want to use as the template for your weekly notes\")",
+                    "target": "setDesc(\"Choose the file you want to use as the template for your weekly notes\")"
+                },
+                {
+                    "source": "setName(\"周记文件夹\")",
+                    "target": "setName(\"周记文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"新周记将保存至此目录\")",
+                    "target": "setDesc(\"新周记将保存至此目录\")"
+                },
+                {
+                    "source": "setName(\"覆盖语言地区：\")",
+                    "target": "setName(\"覆盖语言地区：\")"
+                },
+                {
+                    "source": "setDesc(\"若需使用非默认的地区语言，请在此设置\")",
+                    "target": "setDesc(\"若需使用非默认的地区语言，请在此设置\")"
+                },
+                {
+                    "source": "setTitle(\"删除\")",
+                    "target": "setTitle(\"删除\")"
+                },
+                {
+                    "source": "text:\"⚠️ 日记插件未启用\"",
+                    "target": "text:\"⚠️ 日记插件未启用\""
+                },
+                {
+                    "source": "text:\"日历插件配合日记插件或 Periodic Notes 插件（可在社区插件市场下载）使用效果最佳。\"",
+                    "target": "text:\"日历插件配合日记插件或 Periodic Notes 插件（可在社区插件市场下载）使用效果最佳。\""
+                },
+                {
+                    "source": "text:\"常规设置\"",
+                    "target": "text:\"常规设置\""
+                },
+                {
+                    "source": "text:\"周记设置\"",
+                    "target": "text:\"周记设置\""
+                },
+                {
+                    "source": "text:\"注意：周记设置功能正在迁移。建议安装 Periodic Notes 插件以确保未来功能可用。\"",
+                    "target": "text:\"注意：周记设置功能正在迁移。建议安装 Periodic Notes 插件以确保未来功能可用。\""
+                },
+                {
+                    "source": "text:\"高级设置\"",
+                    "target": "text:\"高级设置\""
+                },
+                {
+                    "source": "text:\"算了\"",
+                    "target": "text:\"算了\""
+                },
+                {
+                    "source": "text:`File ${filename} does not exist. Would you like to create it?`",
+                    "target": "text:`File ${filename} does not exist. Would you like to create it?`"
+                },
+                {
+                    "source": "name:\"打开视图\"",
+                    "target": "name:\"打开视图\""
+                },
+                {
+                    "source": "name:\"打开周记\"",
+                    "target": "name:\"打开周记\""
+                },
+                {
+                    "source": "name:\"在日历中定位当前笔记\"",
+                    "target": "name:\"在日历中定位当前笔记\""
+                }
+            ]
+        }
+    }
+}

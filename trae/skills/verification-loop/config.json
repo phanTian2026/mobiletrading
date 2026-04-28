@@ -1,0 +1,5 @@
+{
+  "name": "verification-loop",
+  "description": "Verification and testing loop pattern for ensuring code correctness through iterative testing.",
+  "version": "1.0"
+}

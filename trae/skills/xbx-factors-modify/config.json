@@ -1,0 +1,6 @@
+{
+  "name": "xbx-factors-modify",
+  "description": "邢不行量化因子设计规范（COIN｜币圈）- 用于在 position-mgmt_v2.1.0 等币圈框架下创建和修改 factors 因子文件（signal/extra_data_dict/signal_multi_params）。",
+  "version": "1.0",
+  "language": "zh-CN"
+}

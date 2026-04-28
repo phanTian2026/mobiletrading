@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *.py)",
+      "Bash(python -m *)",
+      "Bash(black *.py)",
+      "Bash(black .)",
+      "Bash(black --check *)",
+      "Bash(ruff check *)",
+      "Bash(ruff check .)",
+      "Bash(ruff format *)",
+      "Bash(ruff format .)",
+      "Bash(git status)",
+      "Bash(git diff)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git branch *)",
+      "Bash(git checkout *)",
+      "Bash(pip install *)",
+      "Bash(pip list)",
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(grep *)",
+      "Bash(mkdir *)",
+      "Bash(mkdir -p *)",
+      "Bash(cp *)",
+      "Bash(cp -r *)",
+      "Bash(mv *)"
+    ]
+  }
+}

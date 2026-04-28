@@ -1,0 +1,71 @@
+{
+    "plugins": {
+        "obsidian42-brat": {
+            "id": "obsidian42-brat",
+            "isApplied": true,
+            "pluginVersion": "2.0.4",
+            "translationVersion": "1.0.0"
+        },
+        "calendar": {
+            "id": "calendar",
+            "isApplied": true,
+            "pluginVersion": "1.5.10",
+            "translationVersion": "2.0.0"
+        },
+        "omnisearch": {
+            "id": "omnisearch",
+            "isApplied": true,
+            "pluginVersion": "1.28.2",
+            "translationVersion": "2.0.0"
+        },
+        "quickadd": {
+            "id": "quickadd",
+            "isApplied": true,
+            "pluginVersion": "2.12.0",
+            "translationVersion": "2.0.0"
+        },
+        "obsidian-git": {
+            "id": "obsidian-git",
+            "isApplied": true,
+            "pluginVersion": "2.38.0",
+            "translationVersion": "1.0.0"
+        },
+        "copilot": {
+            "id": "copilot",
+            "isApplied": true,
+            "pluginVersion": "3.2.7",
+            "translationVersion": "1.0.0"
+        },
+        "recent-files-obsidian": {
+            "id": "recent-files-obsidian",
+            "isApplied": true,
+            "pluginVersion": "1.7.6",
+            "translationVersion": "2.0.0"
+        },
+        "settings-search": {
+            "id": "settings-search",
+            "isApplied": true,
+            "pluginVersion": "1.3.10",
+            "translationVersion": "2.0.0"
+        },
+        "tag-wrangler": {
+            "id": "tag-wrangler",
+            "isApplied": true,
+            "pluginVersion": "0.6.4",
+            "translationVersion": "2.0.0"
+        },
+        "obsidian-tasks-plugin": {
+            "id": "obsidian-tasks-plugin",
+            "isApplied": true,
+            "pluginVersion": "7.23.1",
+            "translationVersion": "1.0.0"
+        },
+        "dataview": {
+            "id": "dataview",
+            "isApplied": true,
+            "pluginVersion": "0.5.68",
+            "translationVersion": "2.0.0"
+        }
+    },
+    "themes": {}
+}
